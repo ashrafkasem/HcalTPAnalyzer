@@ -1,0 +1,15 @@
+<use name="DataFormats/Common"/>
+<use name="FWCore/Framework"/>
+<use name="FWCore/PluginManager"/>
+<use name="FWCore/ParameterSet"/>
+<use name="FWCore/MessageLogger"/> 
+<use name="FWCore/ServiceRegistry"/> 
+<use name="FWCore/Utilities"/>
+<use name="CondFormats/DataRecord"/> 
+<use name="DataFormats/Math"/>
+<use name="PhysicsTools/UtilAlgos"/>
+<use name="PhysicsTools/Utilities"/> 
+<use name="root"/>
+<export>
+  <lib name="1"/>
+</export>

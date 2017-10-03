@@ -1,0 +1,23 @@
+import FWCore.ParameterSet.Config as cms
+
+process = cms.Process("AnalysisProc")
+process.load("FWCore.MessageService.MessageLogger_cfi")
+process.MessageLogger.cerr.FwkReport.reportEvery = 10000
+
+import PhysicsTools.PythonAnalysis.LumiList as LumiList
+LumiList.LumiList().getVLuminosityBlockRange()
+
+process.source = cms.Source("PoolSource", fileNames = cms.untracked.vstring('') )
+
+runProcess = cms.PSet(
+    input = cms.string("@input"),
+    outdir = cms.string("@outdir"),
+    tag = cms.string("@tag"),
+    dirName = cms.string("mainTPAnalyzer/tpdata"),
+    isMC = cms.bool(@isMC),
+    verbose = cms.bool(@verbose),
+    xsec = cms.double(@xsec),
+    suffix = cms.string(""), 
+    evStart = cms.int32(0),
+    evEnd = cms.int32(-1) 
+)

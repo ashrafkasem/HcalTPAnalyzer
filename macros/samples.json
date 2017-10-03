@@ -1,0 +1,42 @@
+{
+    "proc": [
+         {
+            "color": 1,
+            "data": [		
+	      {
+               "br": [ 1.0 ],
+	       "dtag": "ZeroBias_run302472",
+	       "xsec": 1.0
+	      }
+            ],
+            "fill": 0,
+            "isdata": true,
+            "keys": [
+	       "hcal_dataOnly"
+            ],
+            "marker": 20,
+            "msize": 0.7,
+            "tag": "data"
+	},
+	{                                                                                                                                                                                                     
+            "color": 4,
+	    "data": [
+	    {
+	       "br": [ 1.0 ],
+	       "dtag": "ZeroBias_run283171",
+	       "xsec": 1.0 
+	    }
+	    ],
+	    "fill": 0, 
+	    "isdata": true,
+	    "keys": [ 
+       	        "hcal_dataOnly"	
+		 ],		
+	    "marker": 21,
+	    "msize": 0.7,
+	    "tag": "data"
+       }	    
+	    
+    ]
+}
+		      				
