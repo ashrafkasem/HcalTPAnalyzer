@@ -6,6 +6,7 @@ cd CMSSW_9_2_7/src
 cmsenv
 
 git clone https://github.com/georgia14/HcalTPAnalyzer.git UserCode/HcalTPAnalyzer
+
 scram b -j 4
 
 cd UserCode/HcalTPAnalyzer
